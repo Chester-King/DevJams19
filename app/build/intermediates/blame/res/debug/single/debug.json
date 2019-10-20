@@ -24,6 +24,10 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\bd16208223a932c8c76188c8b451f982\\material-1.1.0-alpha10\\res\\layout\\mtrl_alert_dialog.xml"
     },
     {
+        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_sceneform_plane_discovery_layout.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\70348d47a6bdeda96bfe870494ec36aa\\jetified-sceneform-ux-1.12.0\\res\\layout\\sceneform_plane_discovery_layout.xml"
+    },
+    {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\7ddf3b3453ff2ae36284abc49da050c2\\core-1.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
@@ -178,6 +182,10 @@
     {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\bd16208223a932c8c76188c8b451f982\\material-1.1.0-alpha10\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout___arcore_education.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\0a86e14732d734ee6cec9b3e08345453\\core-1.12.0\\res\\layout\\__arcore_education.xml"
     },
     {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_item_material.xml.flat",
@@ -454,6 +462,10 @@
     {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_dialog.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\bd16208223a932c8c76188c8b451f982\\material-1.1.0-alpha10\\res\\layout\\mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_sceneform_ux_fragment_layout.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\70348d47a6bdeda96bfe870494ec36aa\\jetified-sceneform-ux-1.12.0\\res\\layout\\sceneform_ux_fragment_layout.xml"
     },
     {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",

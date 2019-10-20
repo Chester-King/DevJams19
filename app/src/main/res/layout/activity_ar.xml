@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ArActivity">
 
-    <TextView
-        android:textColor="#000000"
-        android:text="AR"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <fragment
+        android:id="@+id/sceneform_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
 
 </RelativeLayout>

@@ -11,49 +11,88 @@
 10        android:targetSdkVersion="29" />
 10-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml
 11
-12    <dist:module dist:instant="true" />
-12-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:6:5-40
-12-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:6:18-37
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:6:5-65
+12-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:6:22-62
 13
-14    <application
-14-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:8:5-24:19
-15        android:allowBackup="true"
-15-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:9:9-35
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7ddf3b3453ff2ae36284abc49da050c2\core-1.1.0\AndroidManifest.xml:24:18-86
-17        android:debuggable="true"
-18        android:extractNativeLibs="false"
-19        android:icon="@mipmap/ic_launcher"
-19-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:10:9-43
-20        android:label="@string/app_name"
-20-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:11:9-41
-21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:12:9-54
-22        android:supportsRtl="true"
-22-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:13:9-35
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme" >
-24-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:14:9-40
-25        <activity android:name="com.example.devjams19.ArActivity" />
-25-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:15:9-57
-25-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:15:19-45
-26        <activity android:name="com.example.devjams19.ParkingActivity" />
-26-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:16:9-53
-26-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:16:19-50
-27        <activity android:name="com.example.devjams19.MainActivity" >
-27-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:17:9-23:20
-27-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:17:19-47
-28            <intent-filter>
-28-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:18:13-22:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:19:17-69
-29-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:19:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:21:17-77
-31-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:21:27-74
-32            </intent-filter>
-33        </activity>
-34    </application>
-35
-36</manifest>
+14    <uses-feature
+14-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:7:5-87
+15        android:name="android.hardware.camera.ar"
+15-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:7:19-60
+16        android:required="true" />
+16-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:7:61-84
+17
+18    <dist:module dist:instant="true" />
+18-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:9:5-40
+18-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:9:18-37
+19
+20    <application
+20-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:11:5-29:19
+21        android:allowBackup="true"
+21-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:12:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7ddf3b3453ff2ae36284abc49da050c2\core-1.1.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:13:9-43
+26        android:label="@string/app_name"
+26-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:14:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:15:9-54
+28        android:supportsRtl="true"
+28-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:16:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:17:9-40
+31        <activity android:name="com.example.devjams19.ArActivity" />
+31-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:18:9-57
+31-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:18:19-45
+32        <activity android:name="com.example.devjams19.ParkingActivity" />
+32-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:19:9-53
+32-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:19:19-50
+33        <activity android:name="com.example.devjams19.MainActivity" >
+33-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:20:9-26:20
+33-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:20:19-47
+34            <intent-filter>
+34-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:21:13-25:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:22:17-69
+35-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:22:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:24:17-77
+37-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:24:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <meta-data
+41-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:28:9-81
+42            android:name="com.google.ar.core"
+42-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:28:20-53
+43            android:value="required" />
+43-->D:\Work\DevJams19\app\src\main\AndroidManifest.xml:28:54-78
+44        <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+45        <meta-data
+45-->[com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0a86e14732d734ee6cec9b3e08345453\core-1.12.0\AndroidManifest.xml:33:9-35:41
+46            android:name="com.google.ar.core.min_apk_version"
+46-->[com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0a86e14732d734ee6cec9b3e08345453\core-1.12.0\AndroidManifest.xml:34:13-62
+47            android:value="190805000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+47-->[com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0a86e14732d734ee6cec9b3e08345453\core-1.12.0\AndroidManifest.xml:35:13-38
+48        <activity
+48-->[com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0a86e14732d734ee6cec9b3e08345453\core-1.12.0\AndroidManifest.xml:37:9-43:80
+49            android:name="com.google.ar.core.InstallActivity"
+49-->[com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0a86e14732d734ee6cec9b3e08345453\core-1.12.0\AndroidManifest.xml:38:13-62
+50            android:configChanges="keyboardHidden|orientation|screenSize"
+50-->[com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0a86e14732d734ee6cec9b3e08345453\core-1.12.0\AndroidManifest.xml:39:13-74
+51            android:excludeFromRecents="true"
+51-->[com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0a86e14732d734ee6cec9b3e08345453\core-1.12.0\AndroidManifest.xml:40:13-46
+52            android:exported="false"
+52-->[com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0a86e14732d734ee6cec9b3e08345453\core-1.12.0\AndroidManifest.xml:41:13-37
+53            android:launchMode="singleTop"
+53-->[com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0a86e14732d734ee6cec9b3e08345453\core-1.12.0\AndroidManifest.xml:42:13-43
+54            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+54-->[com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0a86e14732d734ee6cec9b3e08345453\core-1.12.0\AndroidManifest.xml:43:13-77
+55    </application>
+56
+57</manifest>
