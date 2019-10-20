@@ -4,7 +4,10 @@
     package="com.example.devjams19">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
 
     <dist:module dist:instant="true" />
 
@@ -15,7 +18,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ArActivity"></activity>
+        <activity android:name=".LakeActivity"></activity>
+        <activity android:name=".ArActivity" />
         <activity android:name=".ParkingActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -25,7 +29,9 @@
             </intent-filter>
         </activity>
 
-        <meta-data android:name="com.google.ar.core" android:value="required" />
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
     </application>
 
 </manifest>
