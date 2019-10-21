@@ -115,6 +115,7 @@
     file: 'sampledata/chair/model.obj',
     name: 'model',
     recenter: 'root',
+    scale: 0.200000,
   },
   version: '0.54:2',
 }

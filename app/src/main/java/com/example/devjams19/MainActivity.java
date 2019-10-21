@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Ar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,ArActivity.class);
+                Intent i = new Intent(MainActivity.this,ObjectActivity.class);
                 startActivity(i);
             }
         });

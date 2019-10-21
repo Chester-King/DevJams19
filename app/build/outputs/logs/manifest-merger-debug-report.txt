@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-38:12
 MERGED from [com.airbnb.android:lottie:3.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5c5e940e1a009a62eb3d8dfb1315a37a\lottie-3.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\722dca557759201128f774d352f1a10b\material-1.1.0-alpha10\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\70b0e3cba2e647e976951ef1ba7a6159\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -45,22 +45,22 @@ MERGED from [com.google.ar.sceneform:rendering:1.12.0] C:\Users\HP\.gradle\cache
 MERGED from [com.google.ar.sceneform:sceneform-base:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\1850b4eb2460c46c97121fd03b57ca09\jetified-sceneform-base-1.12.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.ar.sceneform:filament-android:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\0b5001c51da0ace63348b8dcec36495e\jetified-filament-android-1.12.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\7b1a7abe0723b2f3c4da3fdb3d2a9cf0\core-1.12.0\AndroidManifest.xml:17:1-46:12
-INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:4:5-36
 		INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml
-		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml
 	xmlns:dist
 		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml
-		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:1-38:12
 		INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:2:11-69
@@ -79,7 +79,7 @@ ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:12:5-40
 	dist:instant
 		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:12:18-37
 application
-ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:14:5-35:19
+ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:14:5-36:19
 MERGED from [com.airbnb.android:lottie:3.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5c5e940e1a009a62eb3d8dfb1315a37a\lottie-3.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:3.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5c5e940e1a009a62eb3d8dfb1315a37a\lottie-3.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.1.0-alpha10] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\722dca557759201128f774d352f1a10b\material-1.1.0-alpha10\AndroidManifest.xml:22:5-20
@@ -118,38 +118,42 @@ MERGED from [com.google.ar:core:1.12.0] C:\Users\HP\.gradle\caches\transforms-2\
 		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
 		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.example.devjams19.ObjectActivity
+ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:21:9-61
+	android:name
+		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:21:19-49
 activity#com.example.devjams19.LakeActivity
-ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:21:9-59
+ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:22:9-50
 	android:name
-		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:21:19-47
+		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:22:19-47
 activity#com.example.devjams19.ArActivity
-ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:22:9-48
+ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:23:9-48
 	android:name
-		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:22:19-45
+		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:23:19-45
 activity#com.example.devjams19.ParkingActivity
-ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:23:9-53
+ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:24:9-53
 	android:name
-		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:23:19-50
+		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:24:19-50
 activity#com.example.devjams19.MainActivity
-ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:24:9-30:20
+ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:24:19-47
+		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:25:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:29:27-74
 meta-data#com.google.ar.core
-ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:32:9-34:40
+ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:33:9-35:40
 	android:value
-		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:34:13-37
+		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:35:13-37
 	android:name
-		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:33:13-46
+		ADDED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml:34:13-46
 uses-sdk
 INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Work\DevJams19\app\src\main\AndroidManifest.xml

@@ -3,6 +3,7 @@ package com.example.devjams19;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -36,6 +37,9 @@ public class ArActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ar);
 
+        Intent i = getIntent();
+        Bundle b = i.getExtras();
+        String object = (String) b.get("object");
         modelLoader = new ModelLoader(new WeakReference<>(this));
         fragment = (ArFragment)
                 getSupportFragmentManager().findFragmentById(R.id.sceneform_fragment);
@@ -49,6 +53,8 @@ public class ArActivity extends AppCompatActivity {
         fragment.setOnTapArPlaneListener(new BaseArFragment.OnTapArPlaneListener() {
             @Override
             public void onTapPlane(HitResult hitResult, Plane plane, MotionEvent motionEvent) {
+
+                if (object.equals("chair"))
                 addObject(Uri.parse("model.sfb"));
             }
         });

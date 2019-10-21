@@ -33,6 +33,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.devjams19.ObjectActivity" />
         <activity android:name="com.example.devjams19.LakeActivity" />
         <activity android:name="com.example.devjams19.ArActivity" />
         <activity android:name="com.example.devjams19.ParkingActivity" />
