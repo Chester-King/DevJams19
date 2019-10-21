@@ -7,10 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.airbnb.lottie.LottieAnimationView;
+
 public class MainActivity extends AppCompatActivity {
 
 
-    Button Parking,Ar;
+    LottieAnimationView Ar;
+    LottieAnimationView Parking;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
