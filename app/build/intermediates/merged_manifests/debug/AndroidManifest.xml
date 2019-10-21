@@ -33,17 +33,19 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.devjams19.ObjectActivity" />
-        <activity android:name="com.example.devjams19.LakeActivity" />
-        <activity android:name="com.example.devjams19.ArActivity" />
-        <activity android:name="com.example.devjams19.ParkingActivity" />
-        <activity android:name="com.example.devjams19.MainActivity" >
+        <activity android:name="com.example.devjams19.DisplayActivity" />
+        <activity android:name="com.example.devjams19.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.devjams19.ObjectActivity" />
+        <activity android:name="com.example.devjams19.LakeActivity" />
+        <activity android:name="com.example.devjams19.ArActivity" />
+        <activity android:name="com.example.devjams19.ParkingActivity" />
+        <activity android:name="com.example.devjams19.MainActivity" />
 
         <meta-data
             android:name="com.google.ar.core"

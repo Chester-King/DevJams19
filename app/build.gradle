@@ -38,3 +38,15 @@ dependencies {
 }
 
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+
+sceneform.asset('sampledata/tv/TV_01(1).obj',
+        'default',
+        'sampledata/tv/TV_01(1).sfa',
+        'src/main/assets/TV_01(1)')
+
+sceneform.asset('sampledata/refrigerator/Refrigerator_01.obj',
+        'default',
+        'sampledata/refrigerator/Refrigerator_01.sfa',
+        'src/main/assets/Refrigerator_01')

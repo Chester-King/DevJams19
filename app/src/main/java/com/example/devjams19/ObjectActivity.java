@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class ObjectActivity extends AppCompatActivity {
 
-    ImageView chair;
+    ImageView chair,tv,ref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,15 +17,25 @@ public class ObjectActivity extends AppCompatActivity {
         setContentView(R.layout.activity_object);
 
         chair=findViewById(R.id.chair);
+        tv=findViewById(R.id.tv);
+        ref=findViewById(R.id.ref);
 
-        chair.setOnClickListener(new View.OnClickListener() {
+        navigate(chair,"chair");
+
+        navigate(tv,"tv");
+
+        navigate(ref,"ref");
+
+    }
+
+    private void navigate(ImageView view,String object){
+        view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(ObjectActivity.this, ArActivity.class);
-                intent.putExtra("object","chair");
+                intent.putExtra("object",object);
                 startActivity(intent);
             }
         });
-
     }
 }

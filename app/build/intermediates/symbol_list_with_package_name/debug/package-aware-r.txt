@@ -27,9 +27,12 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fadein
+anim fadeout
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim splash_animation
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -45,6 +48,8 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array array_dot_active
+array array_dot_inactive
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -837,6 +842,14 @@ color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
+color dot_dark_screen1
+color dot_dark_screen2
+color dot_dark_screen3
+color dot_dark_screen4
+color dot_light_screen1
+color dot_light_screen2
+color dot_light_screen3
+color dot_light_screen4
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
@@ -1018,6 +1031,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -1030,6 +1045,7 @@ dimen compat_control_corner_material
 dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen default_dimension
+dimen desc_padding
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_item_min_width
@@ -1078,6 +1094,9 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen dots_height
+dimen dots_margin_bottom
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1088,6 +1107,7 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen img_width_height
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
@@ -1254,6 +1274,8 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen slide_desc
+dimen slide_title
 dimen test_mtrl_calendar_day_cornerSize
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
@@ -1349,6 +1371,9 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable asset1
+drawable asset2
+drawable asset3
 drawable avd_hide_password
 drawable avd_show_password
 drawable btn_checkbox_checked_mtrl
@@ -1410,6 +1435,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable normal_back
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1422,11 +1448,15 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable refrigerator
 drawable sceneform_hand_phone
 drawable sceneform_plane
+drawable splash_back
 drawable test_custom_background
+drawable title
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable tv
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1510,6 +1540,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_next
+id btn_skip
 id buttonPanel
 id cancel_button
 id center
@@ -1568,6 +1600,7 @@ id ghost_view
 id gone
 id group_divider
 id groups
+id guideline
 id hardware
 id hideable
 id home
@@ -1584,6 +1617,7 @@ id item_touch_helper_previous_elevation
 id labeled
 id lake_button
 id largeLabel
+id layoutDots
 id left
 id light
 id line1
@@ -1645,6 +1679,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id ref
 id restart
 id reverse
 id right
@@ -1691,6 +1726,7 @@ id snap
 id snapMargins
 id software
 id spacer
+id splashScreen
 id split_action_bar
 id spread
 id spread_inside
@@ -1736,12 +1772,14 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv
 id unchecked
 id uniform
 id unlabeled
 id up
 id useLogo
 id view_offset_helper
+id view_pager
 id visible
 id wide
 id withText
@@ -1810,10 +1848,12 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_ar
+layout activity_display
 layout activity_lake
 layout activity_main
 layout activity_object
 layout activity_parking
+layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1864,6 +1904,9 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout reso1
+layout reso2
+layout reso3
 layout sceneform_plane_discovery_layout
 layout sceneform_ux_fragment_layout
 layout select_dialog_item_material

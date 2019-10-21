@@ -20,6 +20,21 @@
             android:layout_weight="1"
             android:src="@drawable/chair"/>
 
+        <ImageView
+            android:id="@+id/tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/tv"/>
+
+        <ImageView
+            android:id="@+id/ref"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/refrigerator"/>
+
+
 
     </LinearLayout>
     <LinearLayout

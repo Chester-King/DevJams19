@@ -56,6 +56,10 @@ public class ArActivity extends AppCompatActivity {
 
                 if (object.equals("chair"))
                 addObject(Uri.parse("model.sfb"));
+                if (object.equals("tv"))
+                    addObject(Uri.parse("TV_01(1).sfb"));
+                if(object.equals("ref"))
+                    addObject(Uri.parse("Refrigerator_01.sfb"));
             }
         });
     }
