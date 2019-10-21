@@ -34,6 +34,9 @@ dependencies {
     implementation 'com.airbnb.android:lottie:3.0.1'
     implementation 'com.google.android.material:material:1.1.0-alpha10'
     implementation 'com.google.firebase:firebase-database:19.0.0'
+    implementation 'com.google.firebase:firebase-auth:19.1.0'
+    implementation 'com.github.mukeshsolanki:android-otpview-pinview:2.0.3'
+    implementation 'com.airbnb.android:lottie:3.1.0'
 
 }
 

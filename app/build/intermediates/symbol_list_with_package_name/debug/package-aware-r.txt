@@ -268,6 +268,8 @@ attr counterOverflowTextAppearance
 attr counterOverflowTextColor
 attr counterTextAppearance
 attr counterTextColor
+attr cursorColor
+attr cursorWidth
 attr customNavigationLayout
 attr dayInvalidStyle
 attr daySelectedStyle
@@ -361,6 +363,7 @@ attr helperText
 attr helperTextEnabled
 attr helperTextTextAppearance
 attr helperTextTextColor
+attr hideLineWhenFilled
 attr hideMotionSpec
 attr hideOnContentScroll
 attr hideOnScroll
@@ -389,7 +392,9 @@ attr insetForeground
 attr isLightTheme
 attr isMaterialTheme
 attr itemBackground
+attr itemCount
 attr itemFillColor
+attr itemHeight
 attr itemHorizontalPadding
 attr itemHorizontalTranslationEnabled
 attr itemIconPadding
@@ -397,6 +402,7 @@ attr itemIconSize
 attr itemIconTint
 attr itemMaxLines
 attr itemPadding
+attr itemRadius
 attr itemRippleColor
 attr itemShapeAppearance
 attr itemShapeAppearanceOverlay
@@ -412,6 +418,7 @@ attr itemTextAppearance
 attr itemTextAppearanceActive
 attr itemTextAppearanceInactive
 attr itemTextColor
+attr itemWidth
 attr keylines
 attr labelVisibilityMode
 attr lastBaselineToBottomHeight
@@ -479,8 +486,10 @@ attr layout_scrollFlags
 attr layout_scrollInterpolator
 attr liftOnScroll
 attr liftOnScrollTargetViewId
+attr lineColor
 attr lineHeight
 attr lineSpacing
+attr lineWidth
 attr listChoiceBackgroundIndicator
 attr listChoiceIndicatorMultipleAnimated
 attr listChoiceIndicatorSingleAnimated
@@ -546,6 +555,7 @@ attr navigationMode
 attr navigationViewStyle
 attr number
 attr numericModifiers
+attr otpViewStyle
 attr overlapAnchor
 attr paddingBottomNoButtons
 attr paddingEnd
@@ -575,6 +585,7 @@ attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
 attr reverseLayout
 attr rippleColor
+attr rtlTextDirection
 attr scopeUris
 attr scrimAnimationDuration
 attr scrimBackground
@@ -617,6 +628,7 @@ attr state_above_anchor
 attr state_collapsed
 attr state_collapsible
 attr state_dragged
+attr state_filled
 attr state_liftable
 attr state_lifted
 attr statusBarBackground
@@ -725,6 +737,7 @@ attr ttcIndex
 attr useCompatPadding
 attr useMaterialThemeColors
 attr viewInflaterClass
+attr viewType
 attr voiceIcon
 attr windowActionBar
 attr windowActionBarOverlay
@@ -1274,6 +1287,11 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen otp_view_cursor_width
+dimen otp_view_item_line_width
+dimen otp_view_item_radius
+dimen otp_view_item_size
+dimen otp_view_item_spacing
 dimen slide_desc
 dimen slide_title
 dimen test_mtrl_calendar_day_cornerSize
@@ -1471,6 +1489,9 @@ id SHIFT
 id SYM
 id TOP_END
 id TOP_START
+id VG1
+id VG2
+id VG3
 id __arcore_cancelButton
 id __arcore_continueButton
 id __arcore_messageText
@@ -1540,7 +1561,9 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_login
 id btn_next
+id btn_otp
 id btn_skip
 id buttonPanel
 id cancel_button
@@ -1566,6 +1589,7 @@ id coordinator
 id custom
 id customPanel
 id cut
+id cv_otp
 id dark
 id date_picker_actions
 id decor_content_parent
@@ -1581,9 +1605,11 @@ id direct
 id disableHome
 id dropdown_menu
 id edit_query
+id el_phone_number
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id et_phone_number
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1620,6 +1646,7 @@ id largeLabel
 id layoutDots
 id left
 id light
+id line
 id line1
 id line3
 id listMode
@@ -1679,6 +1706,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id rectangle
 id ref
 id restart
 id reverse
@@ -1755,6 +1783,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1850,6 +1879,7 @@ layout abc_tooltip
 layout activity_ar
 layout activity_display
 layout activity_lake
+layout activity_login
 layout activity_main
 layout activity_object
 layout activity_parking
@@ -2284,6 +2314,8 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
+style OtpWidget
+style OtpWidget_OtpView
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
@@ -2795,6 +2827,8 @@ styleable MenuGroup android_enabled android_id android_visible android_menuCateg
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
 styleable NavigationView android_background android_fitsSystemWindows android_maxWidth elevation headerLayout itemBackground itemHorizontalPadding itemIconPadding itemIconSize itemIconTint itemMaxLines itemShapeAppearance itemShapeAppearanceOverlay itemShapeFillColor itemShapeInsetBottom itemShapeInsetEnd itemShapeInsetStart itemShapeInsetTop itemTextAppearance itemTextColor menu
+styleable OtpView android_itemBackground android_cursorVisible cursorColor cursorWidth hideLineWhenFilled itemCount itemHeight itemRadius itemSpacing itemWidth lineColor lineWidth rtlTextDirection state_filled viewType
+styleable OtpViewTheme otpViewStyle
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle

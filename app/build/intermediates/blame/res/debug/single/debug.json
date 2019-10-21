@@ -16,12 +16,12 @@
         "source": "D:\\Work\\DevJams19\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\034d1b58973367066d0acca98a61b9b4\\appcompat-1.1.0\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_alert_dialog.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d135a4dbe9c7ff4e1e982e1024763a53\\material-1.1.0-alpha10\\res\\layout\\mtrl_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_multichoice_material.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\034d1b58973367066d0acca98a61b9b4\\appcompat-1.1.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
@@ -52,32 +52,32 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\034d1b58973367066d0acca98a61b9b4\\appcompat-1.1.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display.xml.flat",
-        "source": "D:\\Work\\DevJams19\\app\\src\\main\\res\\layout\\activity_display.xml"
-    },
-    {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\cda027772ef86c59095f74c9efd12e4b\\core-1.1.0\\res\\layout\\custom_dialog.xml"
     },
     {
-        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Work\\DevJams19\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display.xml.flat",
+        "source": "D:\\Work\\DevJams19\\app\\src\\main\\res\\layout\\activity_display.xml"
     },
     {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_fullscreen.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d135a4dbe9c7ff4e1e982e1024763a53\\material-1.1.0-alpha10\\res\\layout\\mtrl_picker_fullscreen.xml"
     },
     {
+        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Work\\DevJams19\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d135a4dbe9c7ff4e1e982e1024763a53\\material-1.1.0-alpha10\\res\\layout\\mtrl_layout_snackbar_include.xml"
     },
     {
-        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu_item.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d135a4dbe9c7ff4e1e982e1024763a53\\material-1.1.0-alpha10\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_design_checkbox.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d135a4dbe9c7ff4e1e982e1024763a53\\material-1.1.0-alpha10\\res\\layout\\test_design_checkbox.xml"
+    },
+    {
+        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu_item.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d135a4dbe9c7ff4e1e982e1024763a53\\material-1.1.0-alpha10\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_line_height_from_layout.xml.flat",
@@ -434,6 +434,10 @@
     {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_day_of_week.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d135a4dbe9c7ff4e1e982e1024763a53\\material-1.1.0-alpha10\\res\\layout\\mtrl_calendar_day_of_week.xml"
+    },
+    {
+        "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\Work\\DevJams19\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "D:\\Work\\DevJams19\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_header_toggle.xml.flat",

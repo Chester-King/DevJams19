@@ -25,7 +25,7 @@ public class SplashActivity extends AppCompatActivity {
         int SPLASH_TIME_OUT = 1000;
         new android.os.Handler().postDelayed(() -> {
             // This method will be executed once the timer is over
-            startActivity(new android.content.Intent(SplashActivity.this, DisplayActivity.class));
+            startActivity(new android.content.Intent(SplashActivity.this, LoginActivity.class));
 
             // close this activity
             // Following the documentation, right after starting the activity
